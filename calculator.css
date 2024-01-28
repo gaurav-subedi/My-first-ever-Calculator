@@ -1,0 +1,74 @@
+body{
+   background: linear-gradient(50deg, rgb(15, 29, 69), rgb(41, 8, 62), rgba(23, 23, 121, 0.428));
+   display: grid;
+   place-items: center;
+   height: 100vh;
+   margin: 0;
+}
+.box{
+   border: 3px solid black;
+   box-shadow: -5px -6px 15px #2a2d5d;
+   border-radius: 30px;
+   padding: 60px;
+   width: 400px;
+   height: 415px;
+   margin: 0;
+}
+.input input{
+   padding: 8px;
+   width: 400px;
+   height: 40px;
+   text-align: right;
+   font-size: 27px;
+   border: 0px solid black;
+   border-radius: 20px;
+   box-shadow: 0 0 5px #560982;
+   background: transparent;
+   color: aliceblue;
+   cursor: pointer;
+}
+.buttons button{
+   padding: 12px;
+   margin: 5px;
+   width: 87px;
+   height: 70px;
+   font-weight: 500;
+   background: black;
+   color: white;
+   border-radius: 50%;
+   box-shadow: -5px -5px 5px solid rgb(53, 8, 65);
+}
+button:active{
+   background: rgb(65, 3, 15);
+   transform: translate(2px,2px);
+}
+.buttons .opera{
+    color: #2fbebc;
+    background: #ff0000bb;
+    font-weight: 1000;
+    font-size: 22px;
+}
+.buttons .opera:active{
+   background: white;
+   transform: translate(2px,2px);
+}
+.buttons .gaurav{
+   color: rgba(4, 66, 7, 0.712);
+   background: rgba(145, 7, 169, 0.802);
+   font-weight: 1000;
+   font-size: 22px;
+}
+.buttons .gaurav:active{
+   background: white;
+   transform: translate(2px,2px);
+}
+#equals {
+   color: rgba(0, 255, 51, 0.712);
+   background: rgba(221, 255, 0, 0.802);
+   font-weight: 1000;
+   font-size: 30px;
+}
+#equals:active{
+   background: white;
+   transform: translate(2px,2px);
+}
